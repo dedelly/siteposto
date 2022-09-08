@@ -1,0 +1,43 @@
+body {
+    margin-top: -20px;
+    padding-top: 0px;
+}
+div.topo {
+    background-color: red;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h1.informativo {
+    color: blue;
+}
+h1 {
+    color: orange;
+    text-align: center;
+}
+h2 {
+    color: aquamarine;
+    text-align: center;
+}
+div.esquerda {
+    background-color: red;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+div.direita {
+    height: 20px;
+    width: 1000px;
+    border: 1px solid;
+    border-color: black;
+    display: inline-block;
+    
+}
+img{
+    width: 100px;
+    height: 130px;
+}
