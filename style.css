@@ -1,11 +1,10 @@
 body {
-    margin-top: -20px;
-    padding-top: 0px;
+    margin: 0;
+    margin-left: 2px;
 }
 div.topo {
     background-color: red;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin: -20px;
 }
 h1.informativo {
     color: blue;
@@ -24,14 +23,14 @@ div.esquerda {
     padding-top: 0px;
     border: 1px solid;
     height: auto;
-    width: 300px;
+    width: auto;
     display: inline-block;
     margin-right: 20px;
 }
 
 div.direita {
-    height: 20px;
-    width: 1000px;
+    height: auto;
+    width:auto;
     border: 1px solid;
     border-color: black;
     display: inline-block;
