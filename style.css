@@ -2,10 +2,6 @@ body {
     margin: 0;
     margin-left: 2px;
 }
-div.topo {
-    background-color: red;
-    margin: -20px;
-}
 h1.informativo {
     color: blue;
 }
@@ -34,9 +30,4 @@ div.direita {
     border: 1px solid;
     border-color: black;
     display: inline-block;
-    
-}
-img{
-    width: 100px;
-    height: 130px;
 }
