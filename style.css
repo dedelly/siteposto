@@ -31,3 +31,6 @@ div.direita {
     border-color: black;
     display: inline-block;
 }
+img {
+    width: 500px;
+}
