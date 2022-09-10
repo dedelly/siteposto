@@ -24,7 +24,7 @@
         flex-wrap: wrap;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 600px) {
     .container{
         flex-direction: column;
     }
