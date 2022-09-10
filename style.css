@@ -26,11 +26,11 @@ div.esquerda {
 
 div.direita {
     height: auto;
-    width:500px;
+    width:auto;
     border: 1px solid;
     border-color: black;
     display: inline-block;
 }
 img {
-    width: 500px;
+    width: auto;
 }
