@@ -19,14 +19,14 @@ div.esquerda {
     padding-top: 0px;
     border: 1px solid;
     height: auto;
-    width: 400px;
+    width: 500px;
     display: inline-block;
     margin-right: 20px;
 }
 
 div.direita {
     height: auto;
-    width:400px;
+    width:500px;
     border: 1px solid;
     border-color: black;
     display: inline-block;
