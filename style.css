@@ -1,6 +1,7 @@
 body {
     margin: 0;
     margin-left: 2px;
+    text-align: center;
 }
 h1.informativo {
     color: blue;
