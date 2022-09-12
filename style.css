@@ -6,40 +6,30 @@ div.topo {
     background-color: red;
     margin-top: 0px;
     padding-top: 0px;
+    text-align: center;
 }
 h1.informativo {
     color: blue;
 }
 h1 {
-    color: orange;
     text-align: center;
 }
-h2 {
+h2{
+    text-align: center;
+    color: orange;
+}
+h3 {
     color: aquamarine;
     text-align: center;
 }
-div.esquerda {
+div.atendimento {
     background-color: red;
-    margin-top: 0px;
-    padding-top: 0px;
-    border: 1px solid;
-    height: auto;
-    width: 300px;
-    display: inline-block;
-    margin-right: 20px;
 }
 
-div.direita {
-    height: 20px;
-    width: 1000px;
-    border: 1px solid;
-    border-color: black;
-    display: inline-block;
-    
-}
 img{
     width: 100px;
-    height: 130px;
+    height: 130px;    
+
 }
 .inf{
     background-color: aqua;
@@ -57,8 +47,22 @@ img{
     width: 500px;
     height: 700px;
 }
+
+.enfermeira{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
 @media (max-width: 600px){
     .fotoinf{
         width: 100%;
     }
+    .atendimento{
+        width: 100%;
+    }
+
 }
