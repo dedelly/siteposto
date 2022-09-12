@@ -1,72 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body {
-    background-color: blueviolet;
+    margin-top: -20px;
+    padding-top: 0px;
 }
-
-div {
-    text-align: center;
+div.topo {
+    background-color: red;
+    margin-top: 0px;
+    padding-top: 0px;
 }
-.mural{
-    background-color: rgb(231, 109, 79);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.cabecalho{
-    background-color: aqua;
-    padding-bottom: 10px;
+h1.informativo {
+    color: blue;
 }
 h1 {
-    color: black;
+    color: orange;
+    text-align: center;
 }
-
 h2 {
-    color: red;
-    padding-bottom: 10px;
+    color: aquamarine;
+    text-align: center;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content {
-    background-image: linear-gradient(to right, rgb(64, 1 , 177), rgb(82, 8, 255));
-    margin: 5px;
-    width: 40%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
-    min-height: 100px;
+div.esquerda {
+    background-color: red;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
-.loren{
-    font-family: monospace;
-    color: white;
-    padding: 10px;
-    text-align: justify;
+div.direita {
+    height: 20px;
+    width: 1000px;
+    border: 1px solid;
+    border-color: black;
+    display: inline-block;
+    
 }
-img {
-    width: 200px;
-    height: 220px;
+img{
+    width: 100px;
+    height: 130px;
 }
-a.uana{
-    text-decoration: none;
-    color: white;
+.inf{
+    background-color: aqua;
+    text-align: center;
 }
-
-@media (max-width: 970px) {
-    .container{
-        flex-wrap: wrap;
-    }
+.inf1{
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 25px 30px 25px 30px;
 }
-@media (max-width: 600px) {
-    .container{
-        flex-direction: column;
-    }
-    .content{
-        margin: 5px 0px 5px 0px;
+.fotoinf{
+    width: 500px;
+    height: 700px;
+}
+@media (max-width: 600px){
+    .fotoinf{
         width: 100%;
     }
 }
