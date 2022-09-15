@@ -1,68 +1,73 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2ren;
+    font-family: Arial;
+}
 body {
-    margin-top: -20px;
-    padding-top: 0px;
+    margin-bottom: 100%;
 }
-div.topo {
-    background-color: red;
-    margin-top: 0px;
-    padding-top: 0px;
+body > h1 {
+    font-size: 4vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center; 
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+h1{
     text-align: center;
 }
-h1.informativo {
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section{
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+section > h1 {
+    color: red;
+    font-size: 4vw;
+}
+section > p {
     color: blue;
-}
-h1 {
-    text-align: center;
-}
-h2{
-    text-align: center;
-    color: orange;
-}
-h3 {
-    color: aquamarine;
-    text-align: center;
-}
-div.atendimento {
-    background-color: red;
-}
-
-img{
-    width: 100px;
-    height: 130px;    
-
-}
-.inf{
-    background-color: aqua;
-    text-align: center;
-}
-.inf1{
-    background-color: white;
-    text-align: center;
-    width: auto;
-    height: auto;
-    display: inline-block;
-    padding: 25px 30px 25px 30px;
-}
-.fotoinf{
-    width: 500px;
-    height: 700px;
-}
-
-.enfermeira{
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-}
-h4{
-    text-align: center;
-}
-
-@media (max-width: 600px){
-    .fotoinf{
-        width: 100%;
-    }
-    .atendimento{
-        width: 100%;
-    }
-
+    font-size: 2vw;
 }
