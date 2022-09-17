@@ -47,6 +47,7 @@ h1{
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+    background-color: blue;
 }
 .flex > div {
     flex: 1 1 200px;
@@ -55,7 +56,7 @@ h1{
 
 img {
     max-width: 100%;
-    display: block;
+    display: flex;
 }
 
 section{
@@ -69,5 +70,29 @@ section > h1 {
 }
 section > p {
     color: blue;
-    font-size: 2vw;
+    font-size: 20px;
+}
+
+section > div > h1 {
+    margin-top: 0px;
+}
+section > div > h3 {
+    font-size: 1.5rem;
+    color: yellow;
+    margin-bottom: 5px;
+    
+}
+
+section > div > h4 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+
+div {
+    border-radius: 1px solid black;
+    display: inline-block;
+    margin: 100px
 }
