@@ -49,6 +49,12 @@ h1{
     margin: 0 auto;
     background-color: blue;
 }
+
+.flex > h1 {
+    padding-left: 30px;
+    color: aqua;
+
+}
 .flex > div {
     flex: 1 1 200px;
     margin: 10px;
